@@ -1,4 +1,6 @@
-9. Jan 2017
+= QALD-7 Dataset Description =
+
+Status: 2017-01-09
 
 For parsing the jsons you find a full class structure and parser at:
 https://github.com/AKSW/NLIWOD/tree/dev/qa.commons/src/main/java/org/aksw/qa/commons/load/json
@@ -9,7 +11,7 @@ https://github.com/AKSW/NLIWOD/tree/dev/qa.commons/src/main/java/org/aksw/qa/com
 	Duplicates were identified by hash of english question string, and removed.
 
 ==Qald7-train-multilingual dataset==
-	
+
 	The qald7-train-multilingual dataset was created using the multilingual questions from QALD3
 	to QALD6(QALD1 and QALD2 questions are not multilingual)
 	However, there was some cleaning necessary:
